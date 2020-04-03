@@ -1,0 +1,12 @@
+#container{
+    width: 480px;
+    height: 200px;
+    background-color: rgb(170, 164, 164);
+    position: relative;
+    border-radius: 10px;
+}
+
+h1{
+    position: absolute;
+    margin-left: 160px;
+}
