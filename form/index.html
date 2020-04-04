@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Form</title>
+</head>
+
+<body>
+    <div id="into">
+        <h1>Hello there!</h1>
+        <h3>Please insert your details as followed:</h3>
+        <ul>
+            <li>You must fill all boxs</li>
+            <li>Name must be longer than 2 letters</li>
+            <li>Salary must be between 10,000-16,000</li>
+            <li>Phone number must be 10 digits</li>
+        </ul>
+
+    </div>
+    <div id="conatiner">
+
+        <label for="nameInput">Name:</label>
+        <input id="nameInput" type="text" placeholder="Name">
+        <p id="invalidName">Invalid Enter</p>
+
+        <label for="salaryInput">Desierd salary:</label>
+        <input id="salaryInput" type="number" placeholder="Salary">
+        <p id="invalidSalary">Invalid Enter</p>
+
+        <label for="birthdayInput">Brithday:</label>
+        <input id="birthdayInput" type="date" placeholder="Birthday">
+        <p id="invalidBirthDay">Invalid Enter</p>
+
+        <label for="phoneNumberInput">Phone number:</label>
+        <input id="phoneNumberInput" type="number" placeholder="Phone number">
+        <p id="invalidPhoneNumber">Invalid Enter</p><br>
+
+        <button id="submitButton">Submit</button>
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
